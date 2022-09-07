@@ -1,0 +1,19 @@
+.mainPage {
+    height: 100vh;
+    background: url(../Assets/wallpaper.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+}
+.flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+}

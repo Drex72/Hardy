@@ -1,0 +1,14 @@
+.logo{
+    width: 100%;
+    color: yellow;
+    font-size: 3rem;
+    flex:1;
+}
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.sliding-text {
+    flex:8;
+}
