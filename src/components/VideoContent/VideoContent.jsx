@@ -84,10 +84,10 @@ const VideoContent = () => {
                         {carousel2.map((element) => (
                             
                             <div className="video-content" >
-                                <video width="100%" height="100%" autoPlay="autoplay" preload='auto' muted loop >
+                                <video width="100%" height="50%" autoPlay="autoplay" preload='auto' muted loop >
                                     <source src={element.videoUrl}  type="video/mp4"/>
                                 </video>
-                                <div className="container">
+                                {/* <div className="container">
                                     <div className="ds-banner">
                                         <a href="/">
                                             <div className="ds-banner__content">
@@ -102,13 +102,13 @@ const VideoContent = () => {
                                             </div>
                                         </a>
                                     </div>
-                                </div> 
+                                </div>  */}
                             </div>  
                         ))}
                     </Carousel>
                 </div>
             </div>            
-            <div className="video-content-container">
+            {/* <div className="video-content-container">
                 <div className="text" style={{order: 2}} >
                     <MainText main="NAMSAN'S" sub="SPECIALS"  />
                 </div>                 
@@ -139,10 +139,8 @@ const VideoContent = () => {
                             </div>  
                         ))}
                     </Carousel>
-                </div>
+                </div> */}
             </div>            
-        </div>
-        
     )
 }
 
