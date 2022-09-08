@@ -10,10 +10,9 @@
 }
 .videos-content-new {
     background-color: blue;
-    padding: 1em;
     border-radius: 10px;
-    width: 350px;
-    height: 350px;
+    
+    max-width: 850px ;
     box-shadow: 3px 5px 4px rgb(99, 99, 99);
 }
 .videosContainer{
@@ -28,7 +27,6 @@
 }
 
 .container {
-  max-width: 940px;
   margin: 40px auto;
 }
 .ds-banner {
