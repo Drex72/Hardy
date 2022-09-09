@@ -80,14 +80,14 @@ const VideoContent = () => {
                     <MainText main="TODAY'S" sub="DEALS"  />
                 </div>                 
                 <div className="videos-content-new">
-                    <Carousel duration="25000">
+                    <Carousel children={carousel2} duration="2500">
                         {carousel2.map((element) => (
                             
                             <div className="video-content" >
                                 <video width="100%" height="50%" autoPlay="autoplay" preload='auto' muted loop >
                                     <source src={element.videoUrl}  type="video/mp4"/>
                                 </video>
-                                {/* <div className="container">
+                                <div className="container">
                                     <div className="ds-banner">
                                         <a href="/">
                                             <div className="ds-banner__content">
@@ -102,7 +102,7 @@ const VideoContent = () => {
                                             </div>
                                         </a>
                                     </div>
-                                </div>  */}
+                                </div> 
                             </div>  
                         ))}
                     </Carousel>
